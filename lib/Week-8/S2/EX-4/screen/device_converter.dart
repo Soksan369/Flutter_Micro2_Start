@@ -21,6 +21,7 @@ class _DeviceConverterState extends State<DeviceConverter> {
     'EURO': 0.9, // 1 USD = 0.9 EURO
     'YEN': 150.0, // 1 USD = 150 YEN
     'POUND': 0.78, // 1 USD = 0.78 POUND
+    'Riel': 4000.0, // 1 USD = 4000 Riel
   };
 
   void _convertCurrency() {

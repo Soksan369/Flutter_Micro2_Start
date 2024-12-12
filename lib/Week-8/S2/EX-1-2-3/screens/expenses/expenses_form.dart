@@ -82,6 +82,9 @@ class _ExpenseFormState extends State<ExpenseForm> {
               labelText: 'Amount',
             ),
             keyboardType: TextInputType.number,
+            inputFormatters: <TextInputFormatter>[
+              FilteringTextInputFormatter.digitsOnly,
+            ],
           ),
           const SizedBox(height: 10),
           Row(
